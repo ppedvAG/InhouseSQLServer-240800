@@ -17,6 +17,7 @@ gut bei geringen Resultset (id)
 
 --------------------------
 eindeutiger IX
+
 zusammengesetzter IX
 max 16 Spalten/32 und max 900 Schlüssellänge
 meist nicht mehr als 4 notwendig

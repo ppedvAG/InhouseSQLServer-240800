@@ -19,9 +19,15 @@
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="01_MAXDOP_Abfrage.sql">
+        <FileNode Name="01_DBSettings.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_MAXDOP_Abfrage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01_MAXDOP_Abfrage.sql</FullPath>
         </FileNode>
@@ -30,6 +36,18 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>01_Serversettingskontrollle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Überflüssige Indizes finden.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Überflüssige Indizes finden.sql</FullPath>
         </FileNode>
         <FileNode Name="05_Stats_AutoCreate und IXCreate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -43,11 +61,41 @@
           <AssociatedConnUserName />
           <FullPath>05_Stats_Problem bei SP und Var.sql</FullPath>
         </FileNode>
+        <FileNode Name="80_bad procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>80_bad procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="80_bad_function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>80_bad_function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="80_bad_View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>80_bad_View.sql</FullPath>
+        </FileNode>
         <FileNode Name="80_QueryStore_Hints.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>80_QueryStore_Hints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Fehlende Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Fehlende Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_RAM  messen.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -62,15 +110,28 @@
           <FullPath>Z_Spieltabelle mit ID.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_TraceFlags.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+          <FullPath>Z_TraceFlags.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="FirstResponderKit.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FirstResponderKit.zip</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
