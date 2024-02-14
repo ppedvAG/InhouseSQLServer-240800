@@ -1,6 +1,6 @@
 SELECT      Customers.CustomerID, Customers.CompanyName, Customers.ContactName, Customers.ContactTitle, Customers.City, Customers.Country, Employees.LastName, Employees.FirstName, Orders.OrderDate, Orders.EmployeeID, Orders.Freight, Orders.ShipName, Orders.ShipAddress, Orders.ShipCity,
                    Orders.ShipCountry, [Order Details].OrderID, [Order Details].ProductID, [Order Details].UnitPrice, [Order Details].Quantity, Products.ProductName, Products.UnitsInStock
-INTO KundeUmsatz
+--INTO KundeUmsatz
 FROM         Customers INNER JOIN
                    Orders ON Customers.CustomerID = Orders.CustomerID INNER JOIN
                    Employees ON Orders.EmployeeID = Employees.EmployeeID INNER JOIN

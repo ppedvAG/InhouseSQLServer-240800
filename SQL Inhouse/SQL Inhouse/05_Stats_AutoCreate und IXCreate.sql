@@ -45,7 +45,7 @@ WHERE	OBJECT_ID = OBJECT_ID(N'dbo.messages', N'U');
 GO
 
 -- Check the histogram of the auto created statistics
-DBCC SHOW_STATISTICS(N'dbo.messages', N'_WA_Sys_00000003_398D8EEE')
+DBCC SHOW_STATISTICS(N'dbo.messages', N'_WA_Sys_00000003_4E88ABD4')
 WITH HISTOGRAM;
 GO
 
@@ -58,7 +58,7 @@ WITH HISTOGRAM;
 GO
 
 -- how many records have been used for the creation of the statistics?
-DBCC SHOW_STATISTICS(N'dbo.messages', N'_WA_Sys_00000003_398D8EEE') WITH STAT_HEADER;
+DBCC SHOW_STATISTICS(N'dbo.messages', N'_WA_Sys_00000003_4E88ABD4') WITH STAT_HEADER;
 GO
 
 DBCC SHOW_STATISTICS(N'dbo.messages', N'nix_messages_severity') WITH STAT_HEADER;
